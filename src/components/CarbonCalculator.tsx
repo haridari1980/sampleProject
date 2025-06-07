@@ -172,7 +172,7 @@ export const CarbonCalculator: React.FC<CarbonCalculatorProps> = ({ onAddCalcula
           disabled={!formData.distance || !formData.weight}
           className="flex-1 bg-emerald-600 text-white px-4 py-2 rounded-lg hover:bg-emerald-700 disabled:bg-gray-300 disabled:cursor-not-allowed transition-colors font-medium"
         >
-          Calculate Emissions
+          Calculate Emissions for kalaivani
         </button>
         
         {result !== null && (
